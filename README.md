@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+## Cyber Threat Detection System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The Cyber Threat Detection System is a web-based application built using React that analyzes and detects potential cyber threats. It helps identify suspicious activities such as unusual traffic patterns, multiple threats, and abnormal system behavior.
 
-## Available Scripts
+## Features
+Real-time threat detection
+Displays number of detected threats
+Alerts for suspicious activities
+User-friendly interface
+Data visualization of threats
 
-In the project directory, you can run:
+## Tech Stack
+Frontend: React.js
+Styling: CSS
+Testing: Testing Library
+Build Tool: React Scripts
 
-### `npm start`
+## Project Structure
+cyber-threat/
+│── public/
+│── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│── package.json
+│── README.md
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation & Setup
+Clone the repository
+git clone https://github.com/your-username/cyber-threat.git
+cd cyber-threat
+Install dependencies
+npm install
+Run the project
+npm start
+Build for production
+npm run build
+Input Source (Important Explanation)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## The project does not directly take manual input from users. Instead, it works using:
+Predefined data (dummy dataset) OR
+Simulated inputs inside the code
+API (if integrated in future)
 
-### `npm test`
+## The system processes this data to detect:
+Number of threats
+Type of threat
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Activity patterns
+Future Improvements
+Integration with real-time cybersecurity APIs
+AI/ML-based threat prediction
+Backend integration (Node.js / MongoDB)
+Live network traffic monitoring
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+Aditya Shinde
+Suhani Mahapatra
+Sharayu patil
