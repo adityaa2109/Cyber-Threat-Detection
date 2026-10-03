@@ -55,9 +55,4 @@ Backend integration (Node.js / MongoDB)
 Live network traffic monitoring
 
 
-## Author
-Aditya Shinde
 
-Suhani Mahapatra
-
-Sharayu patil
